@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xin lỗi bé yêu</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(120deg, #f6d365, #fda085);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #333;
+      }
+      .card {
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 20px 30px;
+        text-align: center;
+        max-width: 400px;
+      }
+      .heart {
+        color: red;
+        font-size: 100px;
+        animation: beat 1s infinite;
+      }
+      @keyframes beat {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin: 10px 0;
+      }
+      button {
+        background: #fda085;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      button:hover {
+        background: #f6d365;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="heart">❤️</div>
+      <h1>Bé con ơi anh xin lỗi em nhiều lắm</h1>
+      <p>
+        Anh biết mình sai rồi, đừng giận anh nữa nhé.... lần sau anh hong làm bé
+        buồn nữa âuu..bé ơii hãy vui lên được hongg, anh hong như vậy nữa đâu
+        hiccc
+        <button onclick="alert('Anh yêu em nhiều lắm!')">
+          Tha thứ cho anh nhé🥺
+        </button>
+      </p>
+    </div>
+  </body>
+</html>
